@@ -1,6 +1,6 @@
 <?php
 /**
- * Magento
+ * Magento paulnew
  *
  * NOTICE OF LICENSE
  *
