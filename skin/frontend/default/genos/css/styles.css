@@ -1904,6 +1904,13 @@ tr.summary-details-excluded { font-style:italic; }
 .lft-menu li a:hover { color: #333; }
 .products-grid .price-box .price { color: #f55210; font-size: 11px; font-weight: normal;}
 .products-grid .desc { font-size:11px; }
+.prod-slider { width: 720px; border: 2px solid #e7e5e5; padding: 10px; margin-bottom: 15px; overflow: hidden; }
+.prod-deal { width: 200px; float: left; }
+.prod-deal h1{ font: bold 25px Arial, Helvetica, sans-serif; color: #443f3b; }
+.prod-deal h1 span { color: #877e7b; }
+.prod-deal h3{ font: normal 14px Arial, Helvetica, sans-serif; color: #ea651a;  }
+.prod-deal h3 span{ color: #4a4349;  }
+.slide { width: 500px; float: right; }
 
 /*style by ABRM*/
 <<<<<<< HEAD
