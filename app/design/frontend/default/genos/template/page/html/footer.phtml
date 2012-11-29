@@ -1,0 +1,66 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+    <div class="footer">
+    	<div class="foot_cont">
+        	<ul class="aboutus_ft">
+            	<li>About us</li>
+                <li>About us</li>
+                <li>Customer Services</li>
+                <li>Sitemap</li>
+                <li>Search Terms</li>
+                <li>Advanced search</li>
+                <li>Orders and Returns</li>
+                <li>Contact Us</li>
+            </ul>
+            
+            <ul class="whybuy_ft">
+            	<li>Why buy from us</li>
+                <li>Shipping &amp; Returns</li>
+                <li>Secure Shopping</li>
+                <li>International Shipping</li>
+                <li>Affiliates</li>
+                <li>Group Sales</li>
+            </ul>
+            
+            
+            <ul class="account_ft">
+            	<li>My account</li>
+            	<li>Sign in</li>
+                <li>Veiw Cart</li>
+                <li>Customer Services</li>
+                <li>My Wishlist</li>
+                <li>Track My Order</li>
+                <li>Help</li>
+            </ul>
+            <?php echo $this->getChildHtml('footer.newsletter'); ?>
+        <?php //echo $this->getChildHtml() ?>
+        <?php /*?><p class="bugs"><?php echo $this->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong><?php echo $this->__('Report All Bugs') ?></strong></a> <?php echo $this->__('(ver. %s)', Mage::getVersion()) ?></p><?php */?>
+        <address><?php //echo $this->getCopyright() ?></address>
+        </div>
+    </div>
+</div>
