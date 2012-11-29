@@ -2,7 +2,7 @@
 /**
  * Magento paul
  *
- * NOTICE OF LICENSE
+ * NOTICE OF LICENSE paulnew
  *
  * This source file is subject to the Open Software License (OSL 3.0)
  * that is bundled with this package in the file LICENSE.txt.
